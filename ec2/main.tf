@@ -18,3 +18,6 @@ resource "aws_instance" "web_server" {
   }
 }
 
+#tags = {
+#   Name = "Private EC2 Instance"
+#}
